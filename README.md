@@ -1,62 +1,47 @@
-# Tic Tac Toe Collection 🎮
+# Tic Tac Toe Collection 
 
-A comprehensive collection of 13 different Tic Tac Toe variants built with C++ and object-oriented programming with full Doxygen documentation.
+We built this as a team of four for our OOP course — 13 different Tic Tac Toe variants, all in C++. Each game has its own twist on the classic rules, from boards that change shape to moves that disappear over time.
 
-## 🎯 Game Variants
+## The Games
 
-| # | Game | Description |
-|---|------|-------------|
-| 1 | **SUS Game** | A game on a 3x3 grid where the objective is to form the sequence "S-U-S" |
-| 2 | **Four-in-a-Row** | A 2D version of the classic game Connect Four |
-| 3 | **5x5 Tic-Tac-Toe** | Extended 5x5 board requiring four in a row to win |
-| 4 | **Word Tic-Tac-Toe** | players place letters on the board to form three-letter words |
-| 5 | **Misère Tic-Tac-Toe** | Avoid making three-in-a-row (inverse rules) |
-| 6 | **Diamond Tic-Tac-Toe** | diamond-shaped grid,complete two lines of marks to win.|
-| 7 | **4x4 Tic-Tac-Toe** | Standard rules on a larger 4x4 grid |
-| 8 | **Pyramid Tic-Tac-Toe** | Triangular board with tiered gameplay |
-| 9 | **Numerical Tic-Tac-Toe** | players win by making a line sum to 15|
-| 10| **Obstacles Tic-Tac-Toe** | Board with blocked cells that cannot be used |
-| 11| **Infinity Tic-Tac-Toe** | Oldest moves disappear every 3 moves |
-| 12| **Ultimate Tic Tac Toe** |each cell contains a smaller, standard 3x3 board|
-| 13| **Memory Tic-Tac-Toe** |marks are hidden after being placed testing your memory |
+| # | Game | What makes it different |
+|---|------|------------------------|
+| 1 | **SUS Game** | Spell "S-U-S" instead of getting three in a row |
+| 2 | **Four-in-a-Row** | Think Connect Four, but on a flat grid |
+| 3 | **5x5 Tic-Tac-Toe** | Bigger board, need four in a row to win |
+| 4 | **Word Tic-Tac-Toe** | Place letters to form valid three-letter words |
+| 5 | **Misère** | Don't get three in a row — the loser wins |
+| 6 | **Diamond** | Diamond-shaped board, complete two lines to win |
+| 7 | **4x4 Tic-Tac-Toe** | Same rules, just more room to think |
+| 8 | **Pyramid** | Triangular board with rows of different lengths |
+| 9 | **Numerical** | Place numbers — first to line up a sum of 15 wins |
+| 10 | **Obstacles** | Some cells are blocked, plan around them |
+| 11 | **Infinity** | Your oldest move vanishes every 3 turns |
+| 12 | **Ultimate** | Every cell hides a full 3x3 board inside it |
+| 13 | **Memory** | Marks get hidden after placement — remember where you played |
 
-## 🚀 Features
-Polymorphic Design: Clean OOP architecture with base game framework
+## How to Run
 
-Multiple Player Types: Human, Computer, AI
+You need g++ (C++11 or later). Clone the repo and compile:
+```bash
+make
+./game.out
+```
 
-Modular Code: Easy to extend with new game variants
+Pick a game from the menu (1–13), choose your player types, and play. After each game you go back to the main menu automatically.
 
-Cross-Platform: Standard C++ for Windows, Linux, and macOS
+## Documentation
 
-Full Documentation: Doxygen-generated HTML documentation
+We used Doxygen for the full docs. To generate them locally:
+```bash
+doxygen Doxyfile
+```
 
-## 🛠️ Installation & Compilation
-Prerequisites
-C++11 compatible compiler (g++ recommended)
+Then open `output/html/index.html` in your browser.
 
-Doxygen (for documentation generation)
+## The Team
 
-## 🎮 How to Play
-Run the executable
-
-Select your desired game variant from the menu (1-13)
-
-Choose player types (Human vs Human, Human vs Computer, etc.)
-
-Follow game-specific instructions
-
-Return to main menu after each game 
-## 👥 Team Members
-
-Asmaa Farouq
-
-Arwa Bshier
-
-Mariam Sherif
-
-Mariam Ahmed
-
-
-
- 
+- Asmaa Farouq
+- Arwa Bshier  
+- Mariam Sherif
+- Mariam Ahmed
