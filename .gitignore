@@ -22,3 +22,17 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# project ignores
+.vscode/
+*.exe
+*.out
+*.o
+game.out
+src/*.exe
+src/*.out
+include/*.o
+# temporary files
+*.tmp
+*.log
+.DS_Store
